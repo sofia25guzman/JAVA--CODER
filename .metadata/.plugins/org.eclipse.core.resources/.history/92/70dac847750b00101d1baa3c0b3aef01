@@ -1,0 +1,62 @@
+package com.coderhouse;
+
+public class Clase01 {
+
+	public static void main(String[] args) {
+		//definimos una varaible --primero el tipo de variable, luego el nombre y luego el =
+		
+		String entrada = "Hola Coders...!!!";		
+		System.out.println(entrada);
+		
+		int miPrimerNumero = 2025;
+		System.out.println(miPrimerNumero);
+		
+		//para los decimales, se debe agregar la f al final, para confirmar que es un decimal
+		float numeroConDecimal = 10.55f;
+		System.out.println(numeroConDecimal);
+		
+		int numeroEntero = 13;
+		
+		String mes = "Marzo";
+		
+		//para concatenar variables
+		System.out.println(numeroEntero + " de "+ mes + " de "+miPrimerNumero);
+		
+		//yo puedo solo definir la variable sin inicializarla (sin asignarle el valor)
+		
+		String indefinida;
+		indefinida = "2323";
+		
+		//si quiero sobreescribir el valor nuevo de una variable. siempre que llame a la variable va 
+		//imprimir el último valor asignado
+		indefinida = "Nueva variable";
+		
+		//aqui hay una CONCATENACION
+		System.out.println(indefinida+mes);
+		
+		//aqui hay una OPERACION MATEMATICA + - * /
+		int suma = 1+2;
+		int suma2 = 3+5;
+		
+		System.out.println(suma+suma2);
+		
+		//ahora si quiero definir una CONSTANTE uso la palabra reservada final --NO SE PUEDEN REASIGNAR CONSTANTES
+		//SE USA MAYUSCULA PARA LAS CONSTANTS
+		
+		final int NUMERO_A = 10;
+		final int NUMERO_B = 20;
+		
+		System.out.println(NUMERO_A + NUMERO_B);
+		
+		//PARA INCREMENTAR AGREGO UN ++ a la variable, lo que me dice es que cada vez que la invoque
+		//me debe aumentar su mismo valor
+		
+		int contador =0;
+		contador=1;
+		contador++;
+		System.out.println(contador);
+				
+	
+	}
+
+}
